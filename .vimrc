@@ -1,4 +1,3 @@
-color desert
 set nocompatible              
 set encoding=utf-8
 set tabstop=4
@@ -7,7 +6,6 @@ set shiftwidth=4
 set softtabstop=4
 set smarttab
 set autoindent
-set cindent
 set cursorline
 set cursorcolumn
 set nu
@@ -28,10 +26,7 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'scrooloose/nerdtree'
-Plugin 'elzr/vim-json'
 Plugin 'yggdroot/indentline'
-Plugin 'nvie/vim-flake8'
 Plugin 'valloric/youcompleteme'
 
 
